@@ -1,43 +1,58 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Four Card Feature Section | K0Teu4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <main class="page">
+    <header class="intro">
+      <h1 class="intro__title">
+        <span class="intro__line intro__line--light">Reliable, efficient delivery</span>
+        <span class="intro__line intro__line--bold">Powered by Technology</span>
+      </h1>
+      <p class="intro__text">
+        Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful
+      </p>
+    </header>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <section class="features" aria-label="Product features">
+      <article class="card card--supervisor">
+        <h2 class="card__title">Supervisor</h2>
+        <p class="card__text">Monitors activity to identify project roadblocks</p>
+        <img src="./images/icon-supervisor.svg" alt="" aria-hidden="true" class="card__icon" width="72" height="72">
+      </article>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <article class="card card--team">
+        <h2 class="card__title">Team Builder</h2>
+        <p class="card__text">Scans our talent network to create the optimal team for your project</p>
+        <img src="./images/icon-team-builder.svg" alt="" aria-hidden="true" class="card__icon" width="72" height="72">
+      </article>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <article class="card card--karma">
+        <h2 class="card__title">Karma</h2>
+        <p class="card__text">Regularly evaluates our talent to ensure quality</p>
+        <img src="./images/icon-karma.svg" alt="" aria-hidden="true" class="card__icon" width="72" height="72">
+      </article>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      <article class="card card--calculator">
+        <h2 class="card__title">Calculator</h2>
+        <p class="card__text">Uses data from past projects to provide better delivery estimates</p>
+        <img src="./images/icon-calculator.svg" alt="" aria-hidden="true" class="card__icon" width="72" height="72">
+      </article>
+    </section>
+  </main>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-      <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </footer>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/K0Teu4" target="_blank" rel="noopener noreferrer">K0Teu4</a>.
+  </footer>
 </body>
 </html>
