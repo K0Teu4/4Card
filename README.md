@@ -17,7 +17,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshot
 
-![Four Card Feature Section](./preview.jpg)
+![Four Card Feature Section](./preview.png)
 
 ### Links
 
@@ -61,3 +61,4 @@ The intro heading uses clamp() so the two-line title (light 200 + bold 600) scal
 
 - GitHub — [@K0Teu4](https://github.com/K0Teu4)
 - Frontend Mentor — [@K0Teu4](https://www.frontendmentor.io/profile/K0Teu4)
+
